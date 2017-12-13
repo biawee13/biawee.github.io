@@ -1,0 +1,116 @@
+html, 
+body {
+background-color : #d9d9d9;
+}
+
+.header {
+font-size : 8em;
+font-family : century gothic;
+color : white;
+text-align : center;
+color : #ffffff;
+background-color : #d9d9d9;
+letter-spacing : 0.05em;
+text-shadow : 7px 7px 0 #d5d5d5, 11px 11px 0 rgba(0, 0, 0, 0.2);
+color : #ffffff;
+animation-name : example;
+animation-duration : 10s;
+}
+@keyframes example {
+0% {
+color : #ffffff;
+}
+25% {
+color : #bfbfbf;
+}
+50% {
+color : #808080;
+}
+100% {
+color : #ffffff;
+}
+}
+
+.navigation {
+text-align : center;
+font-size : 1.5em;
+color : white;
+font-family : century gothic;
+}
+
+.band {
+width : 100%;
+height : 12px;
+background-color : white;
+align-content : center;
+}
+
+.header2 {
+font-size : 2em;
+font-family : century gothic;
+color : #595959;
+text-align : center;
+background-image : url("imgs/marble-tile.jpg");
+padding-top : 15px;
+padding-bottom : 15px;
+}
+
+.band2 {
+width : 100%;
+height : 12px;
+background-color : white;
+}
+
+.card {
+width : auto;
+padding : 20px;
+text-align : center;
+justify-content : center;
+background-color : #F2F2F2;
+border : white solid 5px;
+border-radius : 5px;
+margin-top : 15px;
+margin-left : 5cm;
+margin-right : 5cm;
+margin-bottom : 15px;
+font-family : century gothic;
+}
+
+#lv {
+width : 760px;
+height : 460px;
+margin-top : 15px;
+margin-left : 15px;
+margin-right : 15px;
+margin-bottom : 15px;
+margin : auto;
+border : white 5px;
+}
+
+.band3 {
+width : 100%;
+height : 12px;
+background-color : white;
+}
+
+a {
+color : white;
+}
+
+a:hover {
+color : #ff8080;
+}
+
+@media only screen and (max-width:800px) {
+.main {
+width : 80%;
+}
+.right {
+width : 100%;
+}
+}
+@media only screen and (max-width:500px) {
+.menu, .main, .right {
+width : 100%;
+}
+}
